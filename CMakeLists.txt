@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(concepts)
+set(SOURCE main.cpp)
+add_executable(concepts ${SOURCE})
+include_directories(header)

@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "(lldb) Attach",
+            "type": "lldb",
+            "request": "attach",
+            "program": "/Users/vicky/Work/Cpp_Concepts/build/concepts",
+            "MIMode": "lldb"
+        },
+        {
+            "name": "MyTestLaunch",
+            "type": "lldb",
+            "request": "launch",
+            "program": " ${workspaceFolder}/build/concepts",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "CMake: CMake Script",
+            "type": "cmake",
+            "request": "launch",
+            "cmakeDebugType": "script",
+            "scriptPath": "${file}"
+        }
+    ]
+}
